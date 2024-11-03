@@ -117,3 +117,23 @@ footer {
     padding: 10px;
     font-size: 0.8em;
 }
+
+/* Apply Georgia font to all elements */
+* {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for bold letters in company name */
+.bold {
+    font-weight: bold;
+}
+
+/* Lighter weight for other letters in company name */
+.masthead h1 {
+    font-weight: 300; /* Light weight for the rest of the text */
+    display: inline;
+    color: #000080; /* Optional: dark blue color matching site theme */
+}
