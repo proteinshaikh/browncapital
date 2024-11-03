@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Masthead styling */
+.masthead {
+    text-align: center;
+    color: #000080; /* Dark blue similar to Berkshire Hathaway */
+    font-family: Georgia, serif;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.masthead h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.masthead p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* Header and navigation styling */
+header {
+    padding: 10px;
+    background-color: #002F6C;
+    color: white;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #000080;
+}
+
+/* Resources section styling */
+.resources {
+    text-align: left;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.resources h2 {
+    color: #000080;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resources li {
+    margin-bottom: 15px;
+}
+
+.resources a {
+    color: #4B0082; /* Dark purple similar to the example */
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.resources a:hover {
+    text-decoration: underline;
+}
+
+.resources .highlight {
+    color: #B22222; /* Red color for highlighted links */
+}
+
+.date {
+    display: block;
+    font-size: 0.9em;
+    color: #333333;
+    margin-top: 3px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #002F6C;
+    color: white;
+    padding: 10px;
+    font-size: 0.8em;
+}
